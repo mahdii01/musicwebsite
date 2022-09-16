@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 550px)" href="responsive.html" /> -->
+    <title>music website</title>
+</head>
+<body>
+    <header>
+        <div class="side-menu">
+            <h1>پلی لیست</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note"></i>پلی لیست</h4>
+                <h4><span class="second"></span><i class="bi bi-music-note"></i>اخیر پخش شده</h4>
+                <h4><span></span><i class="bi bi-music-note"></i>آهنگ ترند</h4>
+            </div>
+            <div class="menu-song">
+            </div>
+        </div>
+        <div class="side-song">
+            <nav>
+                <div class="user">
+                    <img src="images/user.jpg" alt="user">
+                </div>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="جستجوی موزیک">
+                </div>
+                <ul>
+                    <li>کشف کنید<span></span></li>
+                    <li>لیست موزیک</li>
+                    <li>رادیو</li>
+                </ul>
+            </nav>
+            <div class="content">
+                <h1>shadmehr aghlili</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Idasdfasdfsd qweqweqweq
+                    <br>
+                    corrupti veritatis porro, architecto nesciunt neque suscipit.sdfdfadsfsdfasdfasdfasdf
+                </p>
+                <div class="button">
+                    <button>پخش</button>
+                    <button>دنبال کردن</button>
+                </div>
+                <img src="images/Untitled-1.png" alt="shadmehr">
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>آهنگ های مشهور</h4>
+                    <div class="btn_s">
+                        <i id="leftScroll" class="bi bi-arrow-left-circle"></i>
+                        <i id="rightScroll" class="bi bi-arrow-right-circle"></i>
+                    </div>
+                </div>
+                <div class="pop-song">
+                    <!-- <li class="songItem">
+                        <div class="img_play">
+                            <img src="images/shadmehr.jpg" alt="shadmehr">
+                            <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                        </div>
+                        <h5>حالم عوض میشه
+                            <br>
+                            <div class="subtitle">شادمهر عقیلی</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="images/tajrobeh.jpg" alt="shadmehr">
+                            <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                        </div>
+                        <h5>حالم عوض میشه
+                            <br>
+                            <div class="subtitle">شادمهر عقیلی</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="images/Babak-Jahanbakhsh.jpg" alt="shadmehr">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>حالم عوض میشه
+                            <br>
+                            <div class="subtitle">شادمهر عقیلی</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="images/mohseneb.jpg" alt="shadmehr">
+                            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>حالم عوض میشه
+                            <br>
+                            <div class="subtitle">شادمهر عقیلی</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="images/shadmehr.jpg" alt="shadmehr">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>حالم عوض میشه
+                            <br>
+                            <div class="subtitle">شادمهر عقیلی</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="images/Behnam-Bani.jpg" alt="shadmehr">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>حالم عوض میشه
+                            <br>
+                            <div class="subtitle">شادمهر عقیلی</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="images/shadmehr.jpg" alt="shadmehr">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>حالم عوض میشه
+                            <br>
+                            <div class="subtitle">شادمهر عقیلی</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="images/shadmehr.jpg" alt="shadmehr">
+                            <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>حالم عوض میشه
+                            <br>
+                            <div class="subtitle">شادمهر عقیلی</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="images/shadmehr.jpg" alt="shadmehr">
+                            <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5>حالم عوض میشه
+                            <br>
+                            <div class="subtitle">شادمهر عقیلی</div>
+                        </h5>
+                    </li> -->
+                </div>
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4> خواننده های مشهور</h4>
+                    <div class="btn_s">
+                        <i id="leftScrolls" class="bi bi-arrow-left-circle"></i>
+                        <i id="rightScrolls" class="bi bi-arrow-right-circle"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="images/Shadmehr-Aghili.jpg" alt="shadmehr" title="shadmehr aghili">
+                    </li>
+                    <li>
+                        <img src="images/behnam2.jpg" alt="behnam bani" title="behnam bani">
+                    </li>
+                    <li>
+                        <img src="images/mohsen.jpg" alt="mohsen ebrahimzadeh" title="mohsen ebrahimzadeh">
+                    </li>
+                    <li>
+                        <img src="images/babak.jpg" alt="babak jahanbaksh" title="babak jahanbaksh">
+                    </li>
+                    <li>
+                        <img src="images/mohseny.jpg" alt="mohsen yeganeh" title="mohsen yeganeh">
+                    </li>
+                    <li>
+                        <img src="images/sirv.jpg" alt="sirvan" title="sirvan khosravi">
+                    </li>
+                    <li>
+                        <img src="images/farzad.jpg" alt="farzad" title="farzad farzin">
+                    </li>
+                    <li>
+                        <img src="images/hoomayoon.jpg" alt="homayoon" title="homayoon shajarian">
+                    </li>
+                    <li>
+                        <img src="images/ebi.jpg" alt="ebi" title="ebi">
+                    </li>
+                    <li>
+                        <img src="images/ilyas.jpg" alt="ilyas" title="ilyas">
+                    </li>
+                    <li>
+                        <img src="images/Alireza-Talischi.jpg" alt="ilyas" title="Alireza-Talischi">
+                    </li>
+                </div>
+            </div>    
+        </div>
+        <div class="master-play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="images/shadmehr.jpg" alt="shadmehr" id="poster-master-play">
+            <h5 id="title">شادمهر عقیلی<br>
+                <div class="subtitle">حالم عوض میشه</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range"  id="seek" min="0" value="0" max="100" >
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+            <div class="vol">
+                <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                <input type="range"  id="vol" min="0" value="0" max="100" >
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
